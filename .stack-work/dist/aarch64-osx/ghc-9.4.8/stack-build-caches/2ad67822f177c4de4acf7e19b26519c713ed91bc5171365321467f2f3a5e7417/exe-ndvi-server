@@ -1,0 +1,14 @@
+/Users/keermanipamisetty/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/aarch64-osx-ghc-9.4.8/rts-1.0.2/include/ghcversion.h:
+  hash: 4bc88722407a89d1efbfa9c116cd4017af6ea3ff746643032b96cef62782f5dd
+? /Users/keermanipamisetty/.stack/programs/aarch64-osx/ghc-9.4.8/lib/ghc-9.4.8/lib/aarch64-osx-ghc-9.4.8/rts-1.0.2/include/ghcversion.h
+: hash: 4bc88722407a89d1efbfa9c116cd4017af6ea3ff746643032b96cef62782f5dd
+? /Users/keermanipamisetty/Desktop/NDVI ANALYSIS/backend/.stack-work/dist/aarch64-osx/ghc-9.4.8/build/ndvi-server/autogen/Paths_ndvi_backend.hs
+: hash: 262ea2b2e2de486b54a9c6dce84c1b90b56d323e31218b89bf8e92f34ee96700
+? /Users/keermanipamisetty/Desktop/NDVI ANALYSIS/backend/.stack-work/dist/aarch64-osx/ghc-9.4.8/build/ndvi-server/autogen/cabal_macros.h
+: hash: c65f5ad83c1d224718559cde976f49b6045b3b3daf7c183817db4edd100c1d02
+/Users/keermanipamisetty/Desktop/NDVI ANALYSIS/backend/app/Main.hs:
+  hash: 17a1d62dc72fa369c5ce5e9b6e46db51fbe4f2d41bec051c571e675e76c028e2
+/Users/keermanipamisetty/Desktop/NDVI ANALYSIS/backend/ndvi-backend.cabal:
+  hash: 8e76921e2277b14af681c7ddf854f6779d6282b91e542c61b8e7c8583377ff99
+/Users/keermanipamisetty/Desktop/NDVI ANALYSIS/backend/package.yaml:
+  hash: 6065f2280aa6166187238a5c21795278f730c7e2d411c539f99f182ae53e72cf
