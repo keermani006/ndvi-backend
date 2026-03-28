@@ -22,6 +22,8 @@ import qualified Data.Text.Lazy as TL
 
 import System.Directory (createDirectoryIfMissing, doesFileExist)
 import System.FilePath ((</>), takeExtension)
+import System.Environment (lookupEnv)
+import Data.Maybe (fromMaybe)
 
 import Types (NdviStats(..))
 import Ndvi (lazyProcessGrid, parseCSVLazy,
@@ -41,15 +43,16 @@ main = do
   putStrLn "  NDVI Analysis Backend (Haskell + Scotty)"
   putStrLn "  Demonstrating Lazy Evaluation"
   putStrLn "============================================"
-  putStrLn "Starting server on port 3001..."
-
-  -- Create uploads directory
+  portStr <- lookupEnv "PORT"
+  let port = read (fromMaybe "3001" portStr)
+  
+  putStrLn $ "Starting server on port " ++ show port ++ "..."
+  
   createDirectoryIfMissing True "uploads"
-
-  -- IORef to store the current uploaded file path
+  
   currentFile <- newIORef (Nothing :: Maybe FilePath)
-
-  scotty 3001 $ do
+  
+  scotty port $ do
     -- CORS middleware for React frontend
     middleware corsMiddleware
 
